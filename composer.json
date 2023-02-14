@@ -1,6 +1,6 @@
 {
-    "name": "glorand/laravel-model-settings",
-    "description": "Model Settings for your Laravel app",
+    "name": "jmitech/laravel-model-settings",
+    "description": "Forked for Laravel 10 support. Model Settings for your Laravel app",
     "license": "MIT",
     "authors": [
         {
@@ -17,13 +17,13 @@
         "settings"
     ],
     "require": {
-        "php": "^8.0",
-        "illuminate/config": "^9.0",
-        "illuminate/database": "^9.0",
-        "illuminate/support": "^9.0",
-        "illuminate/console": "^9.0",
-        "illuminate/filesystem": "^9.0",
-        "illuminate/cache": "^9.0",
+        "php": "^8.1",
+        "illuminate/config": "^9.0|^10.0",
+        "illuminate/database": "^9.0|^10.0",
+        "illuminate/support": "^9.0|^10.0",
+        "illuminate/console": "^9.0|^10.0",
+        "illuminate/filesystem": "^9.0|^10.0",
+        "illuminate/cache": "^9.0|^10.0",
         "ext-json": "*"
     },
     "require-dev": {
@@ -37,12 +37,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Glorand\\Model\\Settings\\": "src/"
+            "jmitech\\Model\\Settings\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Glorand\\Model\\Settings\\Tests\\": "tests"
+            "jmitech\\Model\\Settings\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -53,7 +53,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Glorand\\Model\\Settings\\ModelSettingsServiceProvider"
+                "jmitech\\Model\\Settings\\ModelSettingsServiceProvider"
             ]
         }
     },
