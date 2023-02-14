@@ -1,13 +1,13 @@
 <?php
 
-namespace Glorand\Model\Settings\Tests;
+namespace Jmitech\Model\Settings\Tests;
 
-use Glorand\Model\Settings\Exceptions\ModelSettingsException;
-use Glorand\Model\Settings\Tests\Models\UserWithField as User;
+use Jmitech\Model\Settings\Exceptions\ModelSettingsException;
+use Jmitech\Model\Settings\Tests\Models\UserWithField as User;
 
 class FieldSettingsManagerTest extends TestCase
 {
-    /** @var \Glorand\Model\Settings\Tests\Models\UserWithField */
+    /** @var \Jmitech\Model\Settings\Tests\Models\UserWithField */
     protected $model;
     /** @var array */
     protected $testArray = [
@@ -29,7 +29,7 @@ class FieldSettingsManagerTest extends TestCase
     }
 
     /**
-     * @throws \Glorand\Model\Settings\Exceptions\ModelSettingsException
+     * @throws \Jmitech\Model\Settings\Exceptions\ModelSettingsException
      */
     public function testModelArraySettings()
     {
@@ -48,7 +48,7 @@ class FieldSettingsManagerTest extends TestCase
     }
 
     /**
-     * @throws \Glorand\Model\Settings\Exceptions\ModelSettingsException
+     * @throws \Jmitech\Model\Settings\Exceptions\ModelSettingsException
      */
     public function testPersistence()
     {

@@ -1,20 +1,20 @@
 <?php
 
-namespace Glorand\Model\Settings\Managers;
+namespace Jmitech\Model\Settings\Managers;
 
-use Glorand\Model\Settings\Contracts\SettingsManagerContract;
-use Glorand\Model\Settings\Models\ModelSettings;
+use Jmitech\Model\Settings\Contracts\SettingsManagerContract;
+use Jmitech\Model\Settings\Models\ModelSettings;
 
 /**
  * Class TableSettingsManager
- * @package Glorand\Model\Settings\Managers
- * @property  \Illuminate\Database\Eloquent\Model|\Glorand\Model\Settings\Traits\HasSettingsTable $model
+ * @package Jmitech\Model\Settings\Managers
+ * @property  \Illuminate\Database\Eloquent\Model|\Jmitech\Model\Settings\Traits\HasSettingsTable $model
  */
 class TableSettingsManager extends AbstractSettingsManager
 {
     /**
      * @param  array  $settings
-     * @return \Glorand\Model\Settings\Contracts\SettingsManagerContract
+     * @return \Jmitech\Model\Settings\Contracts\SettingsManagerContract
      * @throws \Exception
      * @SuppressWarnings(PHPMD.ElseExpression)
      */

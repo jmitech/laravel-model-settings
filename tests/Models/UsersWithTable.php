@@ -1,14 +1,14 @@
 <?php
 
-namespace Glorand\Model\Settings\Tests\Models;
+namespace Jmitech\Model\Settings\Tests\Models;
 
-use Glorand\Model\Settings\Contracts\SettingsManagerContract;
-use Glorand\Model\Settings\Traits\HasSettingsTable;
+use Jmitech\Model\Settings\Contracts\SettingsManagerContract;
+use Jmitech\Model\Settings\Traits\HasSettingsTable;
 use Illuminate\Database\Eloquent\Model;
 
 /**
  * Class UsersWithTable
- * @package Glorand\Model\Settings\Tests\Models
+ * @package Jmitech\Model\Settings\Tests\Models
  * @method static first()
  * @method SettingsManagerContract config()
  */

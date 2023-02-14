@@ -1,19 +1,19 @@
 <?php
 
-namespace Glorand\Model\Settings\Managers;
+namespace Jmitech\Model\Settings\Managers;
 
-use Glorand\Model\Settings\Contracts\SettingsManagerContract;
+use Jmitech\Model\Settings\Contracts\SettingsManagerContract;
 
 /**
  * Class FieldSettingsManager
- * @package Glorand\Model\Settings\Managers
- * @property \Illuminate\Database\Eloquent\Model|\Glorand\Model\Settings\Traits\HasSettingsField $model
+ * @package Jmitech\Model\Settings\Managers
+ * @property \Illuminate\Database\Eloquent\Model|\Jmitech\Model\Settings\Traits\HasSettingsField $model
  */
 class FieldSettingsManager extends AbstractSettingsManager
 {
     /**
      * @param  array  $settings
-     * @return \Glorand\Model\Settings\Contracts\SettingsManagerContract
+     * @return \Jmitech\Model\Settings\Contracts\SettingsManagerContract
      */
     public function apply(array $settings = []): SettingsManagerContract
     {

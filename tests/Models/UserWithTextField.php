@@ -1,13 +1,13 @@
 <?php
 
-namespace Glorand\Model\Settings\Tests\Models;
+namespace Jmitech\Model\Settings\Tests\Models;
 
-use Glorand\Model\Settings\Traits\HasSettingsField;
+use Jmitech\Model\Settings\Traits\HasSettingsField;
 use Illuminate\Database\Eloquent\Model;
 
 /**
  * Class UserWithTextField
- * @package Glorand\Model\Settings\Tests\Models
+ * @package Jmitech\Model\Settings\Tests\Models
  * @method static first()
  */
 class UserWithTextField extends Model

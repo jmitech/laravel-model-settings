@@ -1,9 +1,9 @@
 <?php
 
-namespace Glorand\Model\Settings;
+namespace Jmitech\Model\Settings;
 
-use Glorand\Model\Settings\Console\CreateSettingsFieldForModel;
-use Glorand\Model\Settings\Console\CreateSettingsTable;
+use Jmitech\Model\Settings\Console\CreateSettingsFieldForModel;
+use Jmitech\Model\Settings\Console\CreateSettingsTable;
 use Illuminate\Support\ServiceProvider;
 
 class ModelSettingsServiceProvider extends ServiceProvider

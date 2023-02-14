@@ -1,16 +1,16 @@
 <?php
 
-namespace Glorand\Model\Settings\Tests;
+namespace Jmitech\Model\Settings\Tests;
 
-use Glorand\Model\Settings\Exceptions\ModelSettingsException;
-use Glorand\Model\Settings\Managers\FieldSettingsManager;
-use Glorand\Model\Settings\Tests\Models\WrongUser;
-use Glorand\Model\Settings\Tests\Models\WrongUserWithField;
+use Jmitech\Model\Settings\Exceptions\ModelSettingsException;
+use Jmitech\Model\Settings\Managers\FieldSettingsManager;
+use Jmitech\Model\Settings\Tests\Models\WrongUser;
+use Jmitech\Model\Settings\Tests\Models\WrongUserWithField;
 
 class TestWrongModelTest extends TestCase
 {
     /**
-     * @throws \Glorand\Model\Settings\Exceptions\ModelSettingsException
+     * @throws \Jmitech\Model\Settings\Exceptions\ModelSettingsException
      */
     public function testSettingsFieldUndefined()
     {

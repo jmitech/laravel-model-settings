@@ -105,7 +105,7 @@ public $settingsFieldName = 'user_settings';
 
 Complete example:
 ```php
-use Glorand\Model\Settings\Traits\HasSettingsField;
+use Jmitech\Model\Settings\Traits\HasSettingsField;
 
 class User extends Model
 {
@@ -124,7 +124,7 @@ Run before the command `php artisan model-settings:model-settings-table`.\
 The command will copy for you the migration class to create the table where the setting values will be stored.\
 The default name of the table is `model_settings`; change the config or env value `MODEL_SETTINGS_TABLE_NAME` if you want to rewrite the default name (**before you run the command!**)
 ```php
-use Glorand\Model\Settings\Traits\HasSettingsTable;
+use Jmitech\Model\Settings\Traits\HasSettingsTable;
 
 class User extends Model
 {
@@ -134,7 +134,7 @@ class User extends Model
 
 #### Option 3 - `HasSettingsRedis` trait <a name="update_models_3"></a>
 ```php
-use Glorand\Model\Settings\Traits\HasSettingsRedis;
+use Jmitech\Model\Settings\Traits\HasSettingsRedis;
 
 class User extends Model
 {
@@ -164,7 +164,7 @@ return [
 Or in your model itself:
 
 ```php
-use Glorand\Model\Settings\Traits\HasSettingsTable;
+use Jmitech\Model\Settings\Traits\HasSettingsTable;
 
 class User extends Model
 {

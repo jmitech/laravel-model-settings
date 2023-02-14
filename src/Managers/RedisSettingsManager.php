@@ -1,14 +1,14 @@
 <?php
 
-namespace Glorand\Model\Settings\Managers;
+namespace Jmitech\Model\Settings\Managers;
 
-use Glorand\Model\Settings\Contracts\SettingsManagerContract;
+use Jmitech\Model\Settings\Contracts\SettingsManagerContract;
 use Illuminate\Support\Facades\Redis;
 
 /**
  * Class FieldSettingsManager
- * @package Glorand\Model\Settings\Managers
- * @property \Illuminate\Database\Eloquent\Model|\Glorand\Model\Settings\Traits\HasSettingsRedis $model
+ * @package Jmitech\Model\Settings\Managers
+ * @property \Illuminate\Database\Eloquent\Model|\Jmitech\Model\Settings\Traits\HasSettingsRedis $model
  */
 class RedisSettingsManager extends AbstractSettingsManager
 {

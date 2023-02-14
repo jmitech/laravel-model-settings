@@ -1,6 +1,6 @@
 <?php
 
-namespace Glorand\Model\Settings\Tests;
+namespace Jmitech\Model\Settings\Tests;
 
 class CreateSettingsFieldForModelConsoleTest extends TestCase
 {

@@ -1,17 +1,17 @@
 <?php
 
-namespace Glorand\Model\Settings\Traits;
+namespace Jmitech\Model\Settings\Traits;
 
-use Glorand\Model\Settings\Contracts\SettingsManagerContract;
-use Glorand\Model\Settings\Exceptions\ModelSettingsException;
-use Glorand\Model\Settings\Managers\FieldSettingsManager;
+use Jmitech\Model\Settings\Contracts\SettingsManagerContract;
+use Jmitech\Model\Settings\Exceptions\ModelSettingsException;
+use Jmitech\Model\Settings\Managers\FieldSettingsManager;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Schema;
 
 /**
  * Trait HasSettingsField
- * @package Glorand\Model\Settings\Traits
+ * @package Jmitech\Model\Settings\Traits
  * @property array $settings
  * @property string $settingsFieldName
  * @property boolean $persistSettings
@@ -32,7 +32,7 @@ trait HasSettingsField
     }
 
     /**
-     * @return \Glorand\Model\Settings\Contracts\SettingsManagerContract
+     * @return \Jmitech\Model\Settings\Contracts\SettingsManagerContract
      * @throws ModelSettingsException
      */
     public function settings(): SettingsManagerContract

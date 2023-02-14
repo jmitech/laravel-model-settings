@@ -1,16 +1,16 @@
 <?php
 
-namespace Glorand\Model\Settings\Traits;
+namespace Jmitech\Model\Settings\Traits;
 
-use Glorand\Model\Settings\Contracts\SettingsManagerContract;
-use Glorand\Model\Settings\Managers\TableSettingsManager;
-use Glorand\Model\Settings\Models\ModelSettings;
+use Jmitech\Model\Settings\Contracts\SettingsManagerContract;
+use Jmitech\Model\Settings\Managers\TableSettingsManager;
+use Jmitech\Model\Settings\Models\ModelSettings;
 use Illuminate\Database\Eloquent\Relations\MorphOne;
 use Illuminate\Support\Facades\Cache;
 
 /**
  * Trait HasSettingsTable
- * @package Glorand\Model\Settings\Traits
+ * @package Jmitech\Model\Settings\Traits
  * @property ModelSettings $modelSettings
  * @property array $settings
  * @method morphOne($model, $name)
@@ -20,8 +20,8 @@ trait HasSettingsTable
     use HasSettings;
 
     /**
-     * @return \Glorand\Model\Settings\Contracts\SettingsManagerContract
-     * @throws \Glorand\Model\Settings\Exceptions\ModelSettingsException
+     * @return \Jmitech\Model\Settings\Contracts\SettingsManagerContract
+     * @throws \Jmitech\Model\Settings\Exceptions\ModelSettingsException
      */
     public function settings(): SettingsManagerContract
     {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Glorand\Model\Settings\Tests;
+namespace Jmitech\Model\Settings\Tests;
 
-use Glorand\Model\Settings\Traits\HasSettingsField;
-use Glorand\Model\Settings\Traits\HasSettingsRedis;
-use Glorand\Model\Settings\Traits\HasSettingsTable;
+use Jmitech\Model\Settings\Traits\HasSettingsField;
+use Jmitech\Model\Settings\Traits\HasSettingsRedis;
+use Jmitech\Model\Settings\Traits\HasSettingsTable;
 use Illuminate\Support\Facades\Redis;
 use Illuminate\Validation\ValidationException;
 use Lunaweb\RedisMock\MockPredisConnection;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Glorand\Model\Settings\Tests;
+namespace Jmitech\Model\Settings\Tests;
 
 use Illuminate\Support\Facades\Schema;
 

@@ -1,12 +1,12 @@
 <?php
 
-namespace Glorand\Model\Settings\Tests;
+namespace Jmitech\Model\Settings\Tests;
 
-use Glorand\Model\Settings\Tests\Models\UserWithRedis as User;
+use Jmitech\Model\Settings\Tests\Models\UserWithRedis as User;
 
 class RedisSettingsManagerTest extends TestCase
 {
-    /** @var \Glorand\Model\Settings\Tests\Models\UserWithRedis */
+    /** @var \Jmitech\Model\Settings\Tests\Models\UserWithRedis */
     protected $model;
 
     public function setUp(): void

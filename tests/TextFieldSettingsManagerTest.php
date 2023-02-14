@@ -1,13 +1,13 @@
 <?php
 
-namespace Glorand\Model\Settings\Tests;
+namespace Jmitech\Model\Settings\Tests;
 
-use Glorand\Model\Settings\Exceptions\ModelSettingsException;
-use Glorand\Model\Settings\Tests\Models\UserWithTextField as User;
+use Jmitech\Model\Settings\Exceptions\ModelSettingsException;
+use Jmitech\Model\Settings\Tests\Models\UserWithTextField as User;
 
 class TextFieldSettingsManagerTest extends TestCase
 {
-    /** @var \Glorand\Model\Settings\Tests\Models\UserWithTextField */
+    /** @var \Jmitech\Model\Settings\Tests\Models\UserWithTextField */
     protected $model;
     /** @var array */
     protected $testArray = [
@@ -29,7 +29,7 @@ class TextFieldSettingsManagerTest extends TestCase
     }
 
     /**
-     * @throws \Glorand\Model\Settings\Exceptions\ModelSettingsException
+     * @throws \Jmitech\Model\Settings\Exceptions\ModelSettingsException
      */
     public function testIfSettingsIsNotValidJson()
     {
@@ -40,7 +40,7 @@ class TextFieldSettingsManagerTest extends TestCase
     }
 
     /**
-     * @throws \Glorand\Model\Settings\Exceptions\ModelSettingsException
+     * @throws \Jmitech\Model\Settings\Exceptions\ModelSettingsException
      */
     public function testModelArraySettings()
     {
@@ -59,7 +59,7 @@ class TextFieldSettingsManagerTest extends TestCase
     }
 
     /**
-     * @throws \Glorand\Model\Settings\Exceptions\ModelSettingsException
+     * @throws \Jmitech\Model\Settings\Exceptions\ModelSettingsException
      */
     public function testPersistence()
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Glorand\Model\Settings\Exceptions;
+namespace Jmitech\Model\Settings\Exceptions;
 
 use Exception;
 

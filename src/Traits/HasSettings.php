@@ -1,8 +1,8 @@
 <?php
 
-namespace Glorand\Model\Settings\Traits;
+namespace Jmitech\Model\Settings\Traits;
 
-use Glorand\Model\Settings\Contracts\SettingsManagerContract;
+use Jmitech\Model\Settings\Contracts\SettingsManagerContract;
 use Illuminate\Support\Arr;
 
 /**

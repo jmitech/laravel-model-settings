@@ -10,7 +10,7 @@
     ],
     "type": "laravel-package",
     "keywords": [
-        "glorand",
+        "Jmitech",
         "laravel-model-settings",
         "laravel-settings",
         "laravel",
@@ -37,12 +37,12 @@
     },
     "autoload": {
         "psr-4": {
-            "jmitech\\Model\\Settings\\": "src/"
+            "Jmitech\\Model\\Settings\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "jmitech\\Model\\Settings\\Tests\\": "tests"
+            "Jmitech\\Model\\Settings\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -53,7 +53,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "jmitech\\Model\\Settings\\ModelSettingsServiceProvider"
+                "Jmitech\\Model\\Settings\\ModelSettingsServiceProvider"
             ]
         }
     },

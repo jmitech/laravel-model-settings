@@ -1,13 +1,13 @@
 <?php
 
-namespace Glorand\Model\Settings\Tests;
+namespace Jmitech\Model\Settings\Tests;
 
-use Glorand\Model\Settings\Models\ModelSettings;
-use Glorand\Model\Settings\Tests\Models\UsersWithTable as User;
+use Jmitech\Model\Settings\Models\ModelSettings;
+use Jmitech\Model\Settings\Tests\Models\UsersWithTable as User;
 
 class TableSettingsManagerTest extends TestCase
 {
-    /** @var \Glorand\Model\Settings\Tests\Models\UsersWithTable */
+    /** @var \Jmitech\Model\Settings\Tests\Models\UsersWithTable */
     private $model;
     /** @var array */
     protected $testArray = [
@@ -29,7 +29,7 @@ class TableSettingsManagerTest extends TestCase
     }
 
     /**
-     * @throws \Glorand\Model\Settings\Exceptions\ModelSettingsException
+     * @throws \Jmitech\Model\Settings\Exceptions\ModelSettingsException
      * @throws \Exception
      * @throws \Psr\SimpleCache\InvalidArgumentException
      */
